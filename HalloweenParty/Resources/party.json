@@ -1,0 +1,62 @@
+{
+  "title": "Halloween Party",
+  "year": 2026,
+  "tagline": "Fire pit, costumes & good times",
+  "closingTitle": "Halloween 2026",
+  "closingSubtitle": "Added to the archive ✓",
+  "sections": [
+    { "id": "intro", "title": "Halloween Party 2026", "subtitle": "Title", "symbol": "moon.stars.fill", "slideNumbers": [1] },
+    { "id": "fire-pit-night", "title": "Fire Pit Night", "subtitle": "Outdoors, around the fire", "symbol": "flame.fill", "slideNumbers": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11] },
+    { "id": "sports-bar", "title": "At the Bar", "subtitle": "Banana & Hot Dog", "symbol": "wineglass.fill", "slideNumbers": [12, 13, 14, 15, 16] },
+    { "id": "golf-simulator", "title": "Golf Simulator", "subtitle": "Golfzon setup", "symbol": "figure.golf", "slideNumbers": [17, 18, 19] },
+    { "id": "closing", "title": "Halloween 2026", "subtitle": "Added to the archive", "symbol": "archivebox.fill", "slideNumbers": [20] }
+  ],
+  "slides": [
+    { "number": 1,  "kind": "title",   "caption": "Halloween Party 2026", "sectionID": "intro" },
+    { "number": 2,  "kind": "photo",   "caption": "The full crew by the fire pit", "sectionID": "fire-pit-night", "areaID": "fire-pit" },
+    { "number": 3,  "kind": "photo",   "caption": "Group photo — cowboy, cow, gorilla, banana, luchador, nun & more", "sectionID": "fire-pit-night", "areaID": "fire-pit", "costumeIDs": ["cowboy", "cow-onesie", "gorilla", "banana", "luchador", "nun"] },
+    { "number": 4,  "kind": "photo",   "caption": "Banana getting the gorilla treatment", "sectionID": "fire-pit-night", "areaID": "fire-pit", "costumeIDs": ["banana", "gorilla"] },
+    { "number": 5,  "kind": "photo",   "caption": "Posing with the fire", "sectionID": "fire-pit-night", "areaID": "fire-pit" },
+    { "number": 6,  "kind": "photo",   "caption": "Close-up of the night crew", "sectionID": "fire-pit-night", "areaID": "fire-pit" },
+    { "number": 7,  "kind": "photo",   "caption": "Cowboy and gorilla carrying the banana", "sectionID": "fire-pit-night", "areaID": "fire-pit", "costumeIDs": ["cowboy", "gorilla", "banana"] },
+    { "number": 8,  "kind": "photo",   "caption": "Banana in flight", "sectionID": "fire-pit-night", "areaID": "fire-pit", "costumeIDs": ["banana"] },
+    { "number": 9,  "kind": "photo",   "caption": "Gorilla posing with the yellow one", "sectionID": "fire-pit-night", "areaID": "fire-pit", "costumeIDs": ["gorilla", "yellow-suit"] },
+    { "number": 10, "kind": "photo",   "caption": "The gorilla has a new friend", "sectionID": "fire-pit-night", "areaID": "fire-pit", "costumeIDs": ["gorilla"] },
+    { "number": 11, "kind": "photo",   "caption": "Still going...", "sectionID": "fire-pit-night", "areaID": "fire-pit" },
+    { "number": 12, "kind": "photo",   "caption": "Banana & Hot Dog at the bar", "sectionID": "sports-bar", "areaID": "sports-bar", "costumeIDs": ["banana", "hot-dog"] },
+    { "number": 13, "kind": "photo",   "caption": "Hot Dog and Banana posing", "sectionID": "sports-bar", "areaID": "sports-bar", "costumeIDs": ["hot-dog", "banana"] },
+    { "number": 14, "kind": "photo",   "caption": "Making it official", "sectionID": "sports-bar", "areaID": "sports-bar", "costumeIDs": ["hot-dog", "banana"] },
+    { "number": 15, "kind": "photo",   "caption": "Heart hands", "sectionID": "sports-bar", "areaID": "sports-bar", "costumeIDs": ["hot-dog", "banana"] },
+    { "number": 16, "kind": "photo",   "caption": "The duo", "sectionID": "sports-bar", "areaID": "sports-bar", "costumeIDs": ["hot-dog", "banana"] },
+    { "number": 17, "kind": "photo",   "caption": "Hot Dog on the golf simulator", "sectionID": "golf-simulator", "areaID": "golf-simulator", "costumeIDs": ["hot-dog"] },
+    { "number": 18, "kind": "photo",   "caption": "Golfzon setup", "sectionID": "golf-simulator", "areaID": "golf-simulator" },
+    { "number": 19, "kind": "photo",   "caption": "Controller ready", "sectionID": "golf-simulator", "areaID": "golf-simulator" },
+    { "number": 20, "kind": "closing", "caption": "Halloween 2026 — Added to the archive ✓", "sectionID": "closing" }
+  ],
+  "highlights": [
+    { "id": "fire-pit-crew", "title": "The full crew by the fire pit", "detail": "The night kicked off outside around the fire pit, with the whole costumed crew together.", "symbol": "flame.fill", "slideNumbers": [2, 5, 6] },
+    { "id": "group-photo", "title": "The big group photo", "detail": "Cowboy, cow, gorilla, banana, luchador, nun & more in one shot.", "symbol": "person.3.fill", "slideNumbers": [3] },
+    { "id": "banana-saga", "title": "The banana saga", "detail": "Banana getting the gorilla treatment, carried off by the cowboy and gorilla, then sent in flight.", "symbol": "figure.wave", "slideNumbers": [4, 7, 8] },
+    { "id": "gorilla-friend", "title": "The gorilla has a new friend", "detail": "Gorilla posing with the yellow one.", "symbol": "hands.sparkles.fill", "slideNumbers": [9, 10] },
+    { "id": "still-going", "title": "Still going...", "detail": "The party kept going well into the night.", "symbol": "moon.stars.fill", "slideNumbers": [11] },
+    { "id": "banana-hot-dog", "title": "Banana & Hot Dog at the bar", "detail": "Posing, making it official, heart hands — the duo of the night.", "symbol": "heart.fill", "slideNumbers": [12, 13, 14, 15, 16] },
+    { "id": "golf-sim", "title": "Golf simulator", "detail": "Hot Dog stepped up to the Golfzon setup, controller ready.", "symbol": "figure.golf", "slideNumbers": [17, 18, 19] }
+  ],
+  "costumes": [
+    { "id": "cowboy", "name": "Cowboy", "emoji": "🤠", "detail": "In the group photo and helping the gorilla carry the banana.", "source": "deck", "slideNumbers": [3, 7] },
+    { "id": "cow-onesie", "name": "Cow Onesie", "emoji": "🐄", "detail": "The cow, front and center in the group photo.", "source": "deck", "slideNumbers": [3] },
+    { "id": "gorilla", "name": "Gorilla", "emoji": "🦍", "detail": "Gave the banana the gorilla treatment, then made a new friend.", "source": "deck", "slideNumbers": [3, 4, 7, 9, 10] },
+    { "id": "yellow-suit", "name": "Yellow Full-Body Suit", "emoji": "🟡", "detail": "\"The yellow one\" — posing with the gorilla.", "source": "deck", "slideNumbers": [9] },
+    { "id": "luchador", "name": "Luchador", "emoji": "🤼", "detail": "Part of the group photo lineup.", "source": "deck", "slideNumbers": [3] },
+    { "id": "nun", "name": "Nun", "emoji": "🙏", "detail": "Part of the group photo lineup.", "source": "deck", "slideNumbers": [3] },
+    { "id": "brown-onesie", "name": "Brown Textured Onesie", "emoji": "🧸", "detail": "Part of the crew (from the organizer's costume list; not named in a deck caption).", "source": "organizerNotes", "slideNumbers": [] },
+    { "id": "spider-web-tights", "name": "Spider-Web Tights", "emoji": "🕸️", "detail": "Part of the crew (from the organizer's costume list; not named in a deck caption).", "source": "organizerNotes", "slideNumbers": [] },
+    { "id": "banana", "name": "Banana", "emoji": "🍌", "detail": "Star of the fire pit saga and half of the Banana & Hot Dog duo at the bar.", "source": "deck", "slideNumbers": [3, 4, 7, 8, 12, 13, 14, 15, 16] },
+    { "id": "hot-dog", "name": "Hot Dog", "emoji": "🌭", "detail": "Half of the duo at the bar, then up on the golf simulator.", "source": "deck", "slideNumbers": [12, 13, 14, 15, 16, 17] }
+  ],
+  "areas": [
+    { "id": "fire-pit", "name": "Fire Pit", "setting": "outdoor", "timeOfDay": "Night", "symbol": "flame.fill", "summary": "Outdoor fire pit at night — the full crew, the group photo, and the banana saga.", "slideNumbers": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "featuredCostumeIDs": ["cowboy", "cow-onesie", "gorilla", "yellow-suit", "luchador", "nun", "banana"] },
+    { "id": "sports-bar", "name": "Sports Bar", "setting": "indoor", "timeOfDay": null, "symbol": "sportscourt.fill", "summary": "Indoor sports bar where Banana & Hot Dog made it official.", "slideNumbers": [12, 13, 14, 15, 16], "featuredCostumeIDs": ["banana", "hot-dog"] },
+    { "id": "golf-simulator", "name": "Golf Simulator", "setting": "indoor", "timeOfDay": null, "symbol": "figure.golf", "summary": "Golfzon simulator setup — Hot Dog on the tee, controller ready.", "slideNumbers": [17, 18, 19], "featuredCostumeIDs": ["hot-dog"] }
+  ]
+}

@@ -1,0 +1,52 @@
+name: HalloweenParty
+options:
+  bundleIdPrefix: com.tjhventures
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.0" # Swift 5 language mode; requires Swift 5.9+ compiler (Xcode 15+)
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: "" # set your team in Xcode to run on a device
+targets:
+  HalloweenParty:
+    type: application
+    platform: iOS
+    sources:
+      - path: HalloweenParty
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tjhventures.halloweenparty2026 # placeholder
+        PRODUCT_NAME: HalloweenParty
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Halloween 2026"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+        ENABLE_PREVIEWS: YES
+  HalloweenPartyTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: HalloweenPartyTests
+    dependencies:
+      - target: HalloweenParty
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tjhventures.halloweenparty2026.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/HalloweenParty.app/HalloweenParty"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+schemes:
+  HalloweenParty:
+    build:
+      targets:
+        HalloweenParty: all
+        HalloweenPartyTests: [test]
+    test:
+      targets:
+        - HalloweenPartyTests
